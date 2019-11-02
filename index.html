@@ -1,7 +1,7 @@
 ---
 layout: default
 menu: home
-css: ['index.css']
+css: ['index.css', 'sidebar-popular-repo.css']
 ---
 <section class="jumbotron">
     <div class="container">
@@ -55,7 +55,10 @@ css: ['index.css']
             {% include disqus-comments.html %}
 
         </div>
-
+        
+        <div class="col-md-4">
+            {% include sidebar-popular-repo.html %}
+        </div>
 
     </div>
 
