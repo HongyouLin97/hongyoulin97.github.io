@@ -4,12 +4,12 @@
 
         <h2>About me</h2>
 
-        <p> <img src="../assets/images/Zhanpeng_Wang_profile.JPG" alt="My profile" width="270" height="360" align="left" style="margin: 0px 20px"/>
-            I am a college student from Haverford College majoring in Computer Science and minoring in Economics.
-            I am also an animal lover who loves dog, cat, and other cute animals. Coding is only a small part of my life.
-            During my free time I like to do workouts in gym, play basketball and badminton with my friends, play 
-            guitar (will learn it during Summer 2019!), and play some video games (League of Legends, etc.).
-            Never give up easily. Work hard, play hard, and train hard.
+        <p> <img src="../assets/images/Hongyou_Lin_profile.JPG" alt="My profile" width="360" height="240" align="left" style="margin: 0px 20px"/>
+            I am currently (2019/11/02) a senior student at Haverford College majoring in Physics. 
+            I am also an admitted candidate for the Electrical & Systems Engineering Master Program at Penn.
+
+            
+            
         </p>
         <br clear="left"/>
         <h2>Contact</h2>
@@ -39,7 +39,7 @@
         {% if site.skill_software_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Software Engineer Keywords</h3>
+                <h3 class="panel-title">Programming Language Keywords</h3>
             </div>
             <div class="panel-body">
                 {% for keyword in site.skill_software_keywords %}
@@ -49,13 +49,13 @@
         </div>
         {% endif %}
 
-        {% if site.skill_web_keywords %}
+        {% if site.skill_lab_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Web Developer Keywords</h3>
+                <h3 class="panel-title">Laboratory Skill Keywords</h3>
             </div>
             <div class="panel-body">
-                {% for keyword in site.skill_web_keywords %}
+                {% for keyword in site.skill_lab_keywords %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>
@@ -65,7 +65,7 @@
         {% if site.skill_languages %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Natural Language Keywords</h3>
+                <h3 class="panel-title"> Human Language Keywords</h3>
             </div>
             <div class="panel-body">
                 {% for keyword in site.skill_languages %}
