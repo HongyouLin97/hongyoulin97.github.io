@@ -2,7 +2,7 @@
 
 .site-header{
     color: #fff;
-    background:rgba(0,0,0,0.5);
+    background:rgba(0, 0, 0, 0.5);
 }
 
 .site-header #site-header-brand {
@@ -18,15 +18,15 @@
 }
 
 .jumbotron {
-    /*background: #4183c4; */
-    background-image: url("../images/haverford_college.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background: #4183c4;  */
+    background-image: url("../images/haverford_college1.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
-    background-size: 100% 100%
+    /* background-size: 100% 100% */
 }
 
 .site-header.site-header-nav-scrolled a {

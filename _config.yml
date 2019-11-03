@@ -25,7 +25,7 @@ repository: HongyouLin97/hongyoulin.github.io # ex. HongyouLin97/hongyoulin.gith
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: https://zhanpengwang888.github.io/
+url: https://HongyouLin97.github.io/
 # url: http://localhost:4000
 
 ## Gem
@@ -53,7 +53,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: HongyouLin97githubio.disqus.com # ex. httpdongchuangithubio.disqus.com
+disque: zhanpengwang888githubio.disqus.com # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
@@ -93,9 +93,9 @@ analytics :
 google_analytics: UA-123175385-1
 
 # For about.html.
-skill_software_keywords: [Python, Java, hack, C/C++, MySQL, SQLite, Racket, Scheme, Stata 14, Processing]
-skill_web_keywords: [HTML5, CSS, JavaScript, JQuery, NodeJS, Flask, Django]
-skill_languages: [English, Hakka, Mandarin, Cantonese, Japanese, French, Latin]
+skill_software_keywords: [Python, Java, C++, LabVIEW, Mathematica, MATLAB, LaTeX, EAGLE, AutoCAD, Origin]
+skill_lab_keywords: [Optical Microscopy, Atomic Force Microscopy, Spectroscopy, Laser Optics, PCB design]
+skill_languages: [English, Mandarin, Japanese, Teochew dialect]
 courses_taken_so_far: [CIS519 Applied Machine Learning, CMSC356 Concurrency and Co-Design in Operating Systems,
                       MATH/ECON/CMSC210 Linear Optimization, ECON247 Financial Accounting, 
                       CMSC395 Mobile Development, CMSC340 Analysis of Algorithms, CMSC240 Computer Organization ,CMSC355 Operating System,
