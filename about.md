@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me :)
+title: About Me!
 menu: about
 subtitle:   <h3>Download My Resume</h3>
             <!-- <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">

@@ -75,7 +75,7 @@ navs:
 
   -
     href: /useful_links
-    label: Useful Links
+    label: AAAAAAA
 
   -
     href: /about
@@ -96,10 +96,17 @@ google_analytics: UA-123175385-1
 skill_software_keywords: [Python, Java, C++, LabVIEW, Mathematica, MATLAB, LaTeX, EAGLE, AutoCAD, Origin]
 skill_lab_keywords: [Optical Microscopy, Atomic Force Microscopy, Spectroscopy, Laser Optics, PCB design]
 skill_languages: [English, Mandarin, Japanese, Teochew dialect]
-courses_taken_so_far: [CIS519 Applied Machine Learning, CMSC356 Concurrency and Co-Design in Operating Systems,
-                      MATH/ECON/CMSC210 Linear Optimization, ECON247 Financial Accounting, 
-                      CMSC395 Mobile Development, CMSC340 Analysis of Algorithms, CMSC240 Computer Organization ,CMSC355 Operating System,
-                      CMSC311 Computer Security, CMSC245 Principle to Programming Languages, ECON304 Intro to Econometrics,
-                      MATH215 Linear Algebra, CMSC231 Discrete Mathematics, ECON204 Economic Statistics with Calculus, 
-                      CMSC105 Intro to CS, CMSC106 Intro to Data Structure, ECON105 Intro to Economics, LING101 Intro to Linguistics,
+courses_taken_so_far: [PHYS115 Modern Intro Physics, PHYS106 Fundamental Physics II, PHYS213 Waves & Optics, PHYS211 Lab Electronics with Waves & Optics,
+                      PHYS214 Intro Quantum Mechanics, PHYS301 Quantum Physics Lab, PHYS308 Mechanics of Discrete/Continuous Systems, 
+                      PHYS302 Advanced Quantum Mechanics, PHYS303 Statistical Physics, PHYS325 Intro Particle Physics, PHYS326 Advanced Physics Lab,
+                      PHYS411 Research in Soft Matter Physics, PHYS415 Research in Nanoscale Physics,
+                      ESE218 Electronic Photonic and Electromechanical Devices,
+                      MATH215 Linear Algebra, MATH216 Multivariable Calculus w/ Linear Algebra, MATH317 Analysis,
+                      CMSC231 Discrete Mathematics, CMSC105 Intro to CS, CMSC106 Intro to Data Structure,  
+                      ECON105 Intro to Economics, ECON247 Financial Accounting,
+                      MATH/ECON/CMSC210 Linear Optimization,
+                      LING101 Intro to Linguistics, LING113 Intro to Syntax, 
+                      EALC110 Legend in Japan,
+                      PSYC100 Foundations of Psychology,
+                      WRPR178 Confronting Monsters from the Past,
                       JNSE001-002 First Year Japanese Intensive]
