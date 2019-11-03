@@ -6,22 +6,27 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Hongyou Lin # ex. I m Hongyou Lin
-name: Hongyou lin # ex. Hongyou Lin
+title: Welcome to this place :) #
+name: Hongyou Lin # ex. Hongyou Lin
 email: hlin1@haverford.edu
-location: Philadelphia, PA # ex. 
+location: Philadelphia, PA, USA # ex. Philadelphia, PA
 company: Haverford College
-company_url: https://www.haverford.edu
+company_url: https://www.haverford.edu/
 github_url: https://github.com/HongyouLin97 # ex. https://github.com/HongyouLin97
-github_username: # ex. HongyouLin97
-description: description_of_your_web_site
+github_username: HongyouLin97 # ex. HongyouLin97
+description: This is a personal website of Hongyou Lin, who is a Haverford College student, class of 2020. Major in Physics, but enjoy programming.
 favicon: favicon.png # Image must be in assets/images
-repository: github_username/github_username.github.io # ex. DONGChuan/DONGChuan.github.io
+repository: HongyouLin97/hongyoulin.github.io # ex. HongyouLin97/hongyoulin.github.io
+# facebook_username: Hongyou Lin
+# facebook_url: 
+# linkedin_username: Hongyou Lin
+# linkedin_url: 
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: http://localhost:4000
+url: https://zhanpengwang888.github.io/
+# url: http://localhost:4000
 
 ## Gem
 gems:
@@ -48,7 +53,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
+disque: zhanpengwang888githubio.disqus.com # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
@@ -69,8 +74,8 @@ navs:
     label: Blog
 
   -
-    href: /bookmark
-    label: Bookmark
+    href: /useful_links
+    label: Useful Links
 
   -
     href: /about
@@ -83,11 +88,18 @@ side_bar_repo_limit: 5 # Number of repos to show
 analytics :
   provider : google
   google :
-      tracking_id : 'tracking_id'  # ex. UA-72165600-X
+      tracking_id : 'UA-123175385-1'  # ex. UA-72165600-X
 
+google_analytics: UA-123175385-1
 
-# For about.html. Fell free to create your own!
-skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
-skill_mobile_app_keywords: [Android, Sketch UI Desgin]
+# For about.html.
+skill_software_keywords: [Python, Java, hack, C/C++, MySQL, SQLite, Racket, Scheme, Stata 14, Processing]
+skill_web_keywords: [HTML5, CSS, JavaScript, JQuery, NodeJS, Flask, Django]
+skill_languages: [English, Hakka, Mandarin, Cantonese, Japanese, French, Latin]
+courses_taken_so_far: [CIS519 Applied Machine Learning, CMSC356 Concurrency and Co-Design in Operating Systems,
+                      MATH/ECON/CMSC210 Linear Optimization, ECON247 Financial Accounting, 
+                      CMSC395 Mobile Development, CMSC340 Analysis of Algorithms, CMSC240 Computer Organization ,CMSC355 Operating System,
+                      CMSC311 Computer Security, CMSC245 Principle to Programming Languages, ECON304 Intro to Econometrics,
+                      MATH215 Linear Algebra, CMSC231 Discrete Mathematics, ECON204 Economic Statistics with Calculus, 
+                      CMSC105 Intro to CS, CMSC106 Intro to Data Structure, ECON105 Intro to Economics, LING101 Intro to Linguistics,
+                      JNSE001-002 First Year Japanese Intensive]
