@@ -3,10 +3,10 @@
   <channel>
     <title>Welcome :)</title>
     <description>This is a personal website of Hongyou Lin, who is a Haverford College student, class of 2020. Major in Physics, but enjoy programming.</description>
-    <link>https://HongyouLin97.github.io//</link>
-    <atom:link href="https://HongyouLin97.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Nov 2019 02:11:05 -0500</pubDate>
-    <lastBuildDate>Mon, 04 Nov 2019 02:11:05 -0500</lastBuildDate>
+    <link>https://hongyoulin.github.io//</link>
+    <atom:link href="https://hongyoulin.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 04 Nov 2019 02:40:04 -0500</pubDate>
+    <lastBuildDate>Mon, 04 Nov 2019 02:40:04 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -253,8 +253,8 @@
 &lt;p&gt;Android Text To Speech is a powerful feature that can allow android apps to talk by generating speech from given texts. It can help people who have difficulty in reading the contents of the app a lot. The main takeaway from this discussion about Androdi TTS feature is that it is not difficult to be incorporated into any existing apps. To incorporate the TTS feature into an android app, we just need to initialize an TextToSpeech instance for a speech engine, define the behaviors of the TTS engine (e.g. through &lt;code class=&quot;highlighter-rouge&quot;&gt;TextToSpeech.setLanguage()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;setPitch()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;setSpeedRate()&lt;/code&gt;, etc.), make the TTS instance either speak the text out loud through &lt;code class=&quot;highlighter-rouge&quot;&gt;speak()&lt;/code&gt; or store the speech as an audio file through &lt;code class=&quot;highlighter-rouge&quot;&gt;synthesizeToFile()&lt;/code&gt;, and finally shut down the TTS engine if it is not used anymore. But remeber that the language you choose to set the TTS engine should match with the texts that you want your app to speak. Moreover, the Text To Speech feature supports a large number of languages across the world and even includes variations of the same language in different regions. It increases an app’s accessibility to a larger pool of users across the world. If you want to know more about Android Text To Speech, you should definitely check out &lt;a href=&quot;https://developer.android.com/reference/android/speech/tts/TextToSpeech&quot;&gt;this developer documentation&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Dec 2018 00:00:00 -0500</pubDate>
-        <link>https://HongyouLin97.github.io//android/2018/12/10/An-Exploration-of-the-Android-Text-To-Speech-API.html</link>
-        <guid isPermaLink="true">https://HongyouLin97.github.io//android/2018/12/10/An-Exploration-of-the-Android-Text-To-Speech-API.html</guid>
+        <link>https://hongyoulin.github.io//android/2018/12/10/An-Exploration-of-the-Android-Text-To-Speech-API.html</link>
+        <guid isPermaLink="true">https://hongyoulin.github.io//android/2018/12/10/An-Exploration-of-the-Android-Text-To-Speech-API.html</guid>
         
         <category>android</category>
         
@@ -429,8 +429,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 02 Aug 2018 00:00:00 -0400</pubDate>
-        <link>https://HongyouLin97.github.io//emacs/2018/08/02/Emacs-Guide-for-Mac-OSX.html</link>
-        <guid isPermaLink="true">https://HongyouLin97.github.io//emacs/2018/08/02/Emacs-Guide-for-Mac-OSX.html</guid>
+        <link>https://hongyoulin.github.io//emacs/2018/08/02/Emacs-Guide-for-Mac-OSX.html</link>
+        <guid isPermaLink="true">https://hongyoulin.github.io//emacs/2018/08/02/Emacs-Guide-for-Mac-OSX.html</guid>
         
         <category>emacs</category>
         
