@@ -17,10 +17,10 @@ github_username: HongyouLin97 # ex. HongyouLin97
 description: This is a personal website of Hongyou Lin, who is a Haverford College student, class of 2020. Major in Physics, but enjoy programming.
 favicon: favicon.jpg # Image must be in assets/images
 repository: HongyouLin97/hongyoulin.github.io # ex. HongyouLin97/hongyoulin.github.io
-# facebook_username: Hongyou Lin
-# facebook_url: 
-# linkedin_username: Hongyou Lin
-# linkedin_url: 
+facebook_username: Hongyou Lin
+facebook_url: https://www.facebook.com/profile.php?id=100010230604976
+linkedin_username: Hongyou Lin
+linkedin_url: https://www.linkedin.com/in/hongyou-lin-042615103/
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
@@ -69,13 +69,13 @@ navs:
     href: /projects
     label: Projects
 
-  -
-    href: /blog
-    label: Blog
+  # -
+  #   href: /blog
+  #   label: Blog
 
-  -
-    href: /useful_links
-    label: AAAAAAA
+  # -
+  #   href: /useful_links
+  #   label: AAAAAAA
 
   -
     href: /about

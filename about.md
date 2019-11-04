@@ -6,7 +6,7 @@ subtitle:   <h3>Download My Resume</h3>
             <!-- <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">
                 <span class="flag-icon flag-icon-bl"></span> Français
             </a> -->
-            <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/Wang-Zhanpeng-Resume.pdf" target="_blanks">
+            <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/Hongyou-Lin-Resume.pdf" target="_blanks">
                 <span class="flag-icon flag-icon-us"></span> English
             </a>
             <!-- <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">
