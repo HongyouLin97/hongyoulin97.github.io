@@ -3,10 +3,14 @@ layout: default
 css: ['sidebar-post-nav.css']
 ---
 {% include jumbotron.html %}
+<script src="//yihui.org/js/math-code.js"></script>
+<!-- Just one possible MathJax CDN below. You may use others. -->
+<script async
+  src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
-
     <div class="row">
-
+        
         {% if page.no-post-nav %}
         <div class="col-md-12 markdown-body">
 

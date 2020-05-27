@@ -3,10 +3,10 @@
   <channel>
     <title>Welcome :)</title>
     <description>This is a personal website of Hongyou Lin, who is a Haverford College student, class of 2020. Major in Physics, but enjoy programming.</description>
-    <link>https://hongyoulin.github.io//</link>
-    <atom:link href="https://hongyoulin.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Nov 2019 02:40:04 -0500</pubDate>
-    <lastBuildDate>Mon, 04 Nov 2019 02:40:04 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 26 May 2020 22:11:52 -0400</pubDate>
+    <lastBuildDate>Tue, 26 May 2020 22:11:52 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -253,8 +253,8 @@
 &lt;p&gt;Android Text To Speech is a powerful feature that can allow android apps to talk by generating speech from given texts. It can help people who have difficulty in reading the contents of the app a lot. The main takeaway from this discussion about Androdi TTS feature is that it is not difficult to be incorporated into any existing apps. To incorporate the TTS feature into an android app, we just need to initialize an TextToSpeech instance for a speech engine, define the behaviors of the TTS engine (e.g. through &lt;code class=&quot;highlighter-rouge&quot;&gt;TextToSpeech.setLanguage()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;setPitch()&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;setSpeedRate()&lt;/code&gt;, etc.), make the TTS instance either speak the text out loud through &lt;code class=&quot;highlighter-rouge&quot;&gt;speak()&lt;/code&gt; or store the speech as an audio file through &lt;code class=&quot;highlighter-rouge&quot;&gt;synthesizeToFile()&lt;/code&gt;, and finally shut down the TTS engine if it is not used anymore. But remeber that the language you choose to set the TTS engine should match with the texts that you want your app to speak. Moreover, the Text To Speech feature supports a large number of languages across the world and even includes variations of the same language in different regions. It increases an app’s accessibility to a larger pool of users across the world. If you want to know more about Android Text To Speech, you should definitely check out &lt;a href=&quot;https://developer.android.com/reference/android/speech/tts/TextToSpeech&quot;&gt;this developer documentation&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Dec 2018 00:00:00 -0500</pubDate>
-        <link>https://hongyoulin.github.io//android/2018/12/10/An-Exploration-of-the-Android-Text-To-Speech-API.html</link>
-        <guid isPermaLink="true">https://hongyoulin.github.io//android/2018/12/10/An-Exploration-of-the-Android-Text-To-Speech-API.html</guid>
+        <link>http://localhost:4000/android/2018/12/10/An-Exploration-of-the-Android-Text-To-Speech-API.html</link>
+        <guid isPermaLink="true">http://localhost:4000/android/2018/12/10/An-Exploration-of-the-Android-Text-To-Speech-API.html</guid>
         
         <category>android</category>
         
@@ -264,178 +264,162 @@
       </item>
     
       <item>
-        <title>Emacs Guide for Mac OSX</title>
-        <description>&lt;p&gt;A detailed note about Emacs installation, configuration in OSX, and its guide.&lt;/p&gt;
+        <title>A Physics Guide for Making Your Own Handheld EMP Generator</title>
+        <description>&lt;p&gt;A detailed walk-through of an EMP generator &amp;amp; an explanatory touch on the Maxwell’s Equations.&lt;/p&gt;
 
-&lt;p&gt;We all know that Emacs is a very powerful text editor that is flexible, customizable, and extensible. More importantly it can utilize different packages from MELPA to help with text editting. I have noticed that there isn’t a detail-oriented note or blog about how to install Emacs through homebrew, configure emacs in OSX, and use it. Therefore, I am going to write a blog for it.&lt;/p&gt;
+&lt;p&gt;When did you first hear about the term “EMP”? Maybe in some science fiction books, it may be described as some cannon-like weapons that shoot out some powerful light beams so any electronic device standing in the way is burned down with sparks in just a blink of an eye. Well, this is just the most imaginative part of the EMP. If you are interested to learn more, this blog will present the physics behind such device with a detailed guide for you to make your own EMP generator that only works against small electronic gadgets (for educational purposes).&lt;/p&gt;
 
-&lt;h2 id=&quot;emacs-installation&quot;&gt;Emacs Installation&lt;/h2&gt;
-&lt;p&gt;In Mac OSX, there is a default emacs text editor that cannot be updated regularly because it directly comes along as a package from the Mac OSX itself. You have to update the whole operating system in order to get it updated, which, most of the time, is an out-dated version. Therefore, if you want to update emacs regularly, you may want to use the emacs provided by homebrew.&lt;/p&gt;
+&lt;h2 id=&quot;emp-definition--basics&quot;&gt;EMP Definition &amp;amp; Basics&lt;/h2&gt;
+&lt;p&gt;EMP stands for electromagnetive pulse, which is a burst of eletromagnetic energy in a short time. To undnerstand what does the phrase “a burst of electromagnetic energy” actually mean, one need to learn about the concepts of electric field &amp;amp; potential, as well as the relationship between the electric &amp;amp; magnetic fields. First, the electric field &amp;amp; potential due to a point charge \( Q_{source} \) are shown below.&lt;/p&gt;
 
-&lt;p&gt;If you want to install homebrew, you can just paste the following command into your terminal and run it:&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{equation} \vec{E} = k\frac{Q_{source}}{r^2} \hat{r} \end{equation}&lt;/script&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&quot;$&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-fsSL&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;raw&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.githubusercontent.com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Homebrew&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;master&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{equation} V = -k\frac{Q_{source}}{r} \end{equation}&lt;/script&gt;
 
-&lt;p&gt;If you have homebrew installed already, you can run the following commands to install homebrew’s version of emacs:&lt;/p&gt;
+&lt;p&gt;where \( k \) is known as the Coulomb’s constant.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;update&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;emacs&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--with-cocoa&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;linkapps&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;emacs&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Note that any charge particle \( q \) trapped inside an electric field experiences a force (eqn-3), and the electric field is defined as the negative spatial derivative of the electric potential (eqn-4).&lt;/p&gt;
 
-&lt;p&gt;The second step is optional, but it is recommended if you like to start Emacs from the launchpad or from Spotlight.&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{equation} \vec{F}=\vec{E}q \end{equation}&lt;/script&gt;
 
-&lt;p&gt;You can delete the default version of the emacs that comes along with the Mac OSX by running the following commands in the terminal&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{equation} \vec{E}=-\frac{dV}{d\vec{r}} \end{equation}&lt;/script&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;emacs&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-rf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;share&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;emacs&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;And you can create an alias in your terminal shell and when you invoke “emacs” it will run the newly installed version.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;emacs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;local&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Cellar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;emacs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;26&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Emacs&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.app&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Contents&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;MacOS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Emacs&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-nw&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You can copy and paste it into a file ~/.bash_profile if you want the change to be permanent. Make sure you have the path to the emacs app correctly.You can search the path through using &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt;. For example, the directory to my emacs app is “/usr/local/Cellar/emacs/26.1_1/Emacs.app/Contents/MacOS/Emacs”.&lt;/p&gt;
-
-&lt;p&gt;Once you have installed Emacs from homebrew correctly, you can just invoke emacs from the shell by &lt;code class=&quot;highlighter-rouge&quot;&gt;emacs&lt;/code&gt;. You can also check the version of your emacs by &lt;code class=&quot;highlighter-rouge&quot;&gt;emacs --version&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;installing-packages-in-emacs&quot;&gt;Installing Packages in Emacs&lt;/h2&gt;
-
-&lt;p&gt;Before using Emacs, I believe it is helpful if you can utilize the powerful MELPA, the largest and most up-to-date repository of Emacs packages, to enhance your experience with Emacs. In order to get the best out of MELPA, you have to create a file named &lt;code class=&quot;highlighter-rouge&quot;&gt;init.el&lt;/code&gt; under this directory &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.emacs.d/&lt;/code&gt;. And then you copy and paste the following contents into this &lt;code class=&quot;highlighter-rouge&quot;&gt;init.el&lt;/code&gt;:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;package&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;add-to-list&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;package-archives&lt;/span&gt;
-             &lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;melpa&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;melpa&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;packages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-             &lt;span class=&quot;nt&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;package-initialize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This will enable Emacs to know that it should install available packages from both MELPA and GNU, which is the default source of Emacs packages. You may want to restart Emacs in order for &lt;code class=&quot;highlighter-rouge&quot;&gt;init.el&lt;/code&gt; to take effect.&lt;/p&gt;
-
-&lt;p&gt;Once you have it, you can start the Emacs and install the packages you want to use. When you want to install packages in Emacs, you should have the command &lt;code class=&quot;highlighter-rouge&quot;&gt;M-x package-install RET [package-name] RET&lt;/code&gt; where the key &lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt; is the key ESC and you replace &lt;code class=&quot;highlighter-rouge&quot;&gt;[package-name]&lt;/code&gt; with the package you want to install. For example, if I want to install flyCheck mode, I would run the command &lt;code class=&quot;highlighter-rouge&quot;&gt;M-x package-install RET flycheck RET&lt;/code&gt; in Emacs to install flyCheck mode.&lt;/p&gt;
-
-&lt;p&gt;To begin your experience with Emacs, I would recommend some useful packages:&lt;br /&gt;
-* &lt;code class=&quot;highlighter-rouge&quot;&gt;auto-complete&lt;/code&gt;: it helps you automatically complete a word so that you can write codes much faster&lt;br /&gt;
-* &lt;code class=&quot;highlighter-rouge&quot;&gt;flycheck&lt;/code&gt;: it checks syntax of your codes&lt;br /&gt;
-* &lt;code class=&quot;highlighter-rouge&quot;&gt;paredit&lt;/code&gt;: a minor mode for editting parentheses (very useful if you write codes in Scheme/Racket)&lt;/p&gt;
-
-&lt;p&gt;Once you install a package, it may not be activated whenever you launch Emacs. You can manually activate it through using this command &lt;code class=&quot;highlighter-rouge&quot;&gt;M-x [package-name]&lt;/code&gt; in an instance of Emacs. However, there is a way to activate the package whenever you use Emacs by adding the following lines to &lt;code class=&quot;highlighter-rouge&quot;&gt;init.el&lt;/code&gt;:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;package-name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;global-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;package-name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;flyCheck&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;mode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;be&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;flycheck&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;global-flycheck-mode&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Moreover, when you need to edit the codes of different languages, you should also install the language mode for them. For example, when I write codes in Racket, I also need to install racket-mode in order to have the right syntax highlight and spacing.&lt;/p&gt;
-
-&lt;p&gt;You can find out what packages you want to install with the command &lt;code class=&quot;highlighter-rouge&quot;&gt;M-x package-list-packages&lt;/code&gt;, which gives the whole list of available Emacs packages from MELPA and GNU. You can also visit MELPA website to gain more information about different packages it has.&lt;/p&gt;
-
-&lt;h2 id=&quot;using-emacs&quot;&gt;Using Emacs&lt;/h2&gt;
-
-&lt;p&gt;Emacs is not hard to use, but is not easy to use, either. It takse practices to remember the Emacs shortcut keys. If you use Emacs more and more frequently, eventually you can memorize all the shortcut keys. Here is a table of basic shortcut keys that you would use a lot in Emacs.&lt;/p&gt;
+&lt;p&gt;Second, according to the Maxwell’s equations shown below, the 3rd equation – Faraday’s law of induction describes how a time-varying magnetic field induces an electric field, and the 4th equation – Ampère’s law with Maxwell’s addition states that the magnetic field could be generated in two ways: either by moving charges (electric current) or by a changing electric field.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Shortcut Keys&lt;/th&gt;
-      &lt;th&gt;Description&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/images/Maxwell.png&quot; alt=&quot;Maxwell.png&quot; /&gt;&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;C-x C-s&lt;/td&gt;
-      &lt;td&gt;Save the file&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C-x C-c&lt;/td&gt;
-      &lt;td&gt;Exit emacs (asks about unsaved buffer and running programs)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;M-g g&lt;/td&gt;
-      &lt;td&gt;Go to a specific line given by line number&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C-x C-f&lt;/td&gt;
-      &lt;td&gt;Find file (or create if not there); prompts for file name&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C-SPACE&lt;/td&gt;
-      &lt;td&gt;Mark one end of region&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C-w&lt;/td&gt;
-      &lt;td&gt;Cut (after you Mark and move to other end)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;M-w&lt;/td&gt;
-      &lt;td&gt;Copy (after you Mark and move to other end)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C-y&lt;/td&gt;
-      &lt;td&gt;Yank (paste) most recently killed (cut or copied); will also use text currently selected in another application.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ESC ESC ESC&lt;/td&gt;
-      &lt;td&gt;Get me out of where I am&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C-v&lt;/td&gt;
-      &lt;td&gt;Scroll down (toward end of buffer)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;M-v&lt;/td&gt;
-      &lt;td&gt;Scroll up (toward beginning of buffer)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C-M-v&lt;/td&gt;
-      &lt;td&gt;Scroll other window down&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C-x 1&lt;/td&gt;
-      &lt;td&gt;One window on current buffer&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C-x 2&lt;/td&gt;
-      &lt;td&gt;Split window vertically&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C-x 3&lt;/td&gt;
-      &lt;td&gt;Split window horizontally&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C-x 0&lt;/td&gt;
-      &lt;td&gt;Kill the splitted window&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C-x u or C-_&lt;/td&gt;
-      &lt;td&gt;Undo/Redo&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C-g&lt;/td&gt;
-      &lt;td&gt;Quit (interrupt) command&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;Maxwell’s Equations describing electromagnetism.&lt;/em&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Noted: The key &lt;code class=&quot;highlighter-rouge&quot;&gt;C&lt;/code&gt; stands for the key CONTROL in your keyboard.&lt;/p&gt;
+&lt;p&gt;Thus, EMP could be understood as either a mixture (i.e. electromagnetic radiation) or just the electric/magnetic energy (just a burst in electric or magnetic field, i.e. electric/magnetic pulse) that could cause/create a large change of the electric/magnetic fields surrounding the targeted electronics in a short time. If the EMP has enough energy to cause a large enough sudden change of the electric/magnetic field, it generally could cause excessive currents, short-circuits or reset the electronics components. In other words, the goal is to provide excessive energies to the charge carriers (i.e. electrons) so that they won’t behave in the desired way. Depending on how strong the “burst of electromagnetic energy” is, EMP could cause malfunctions or destroy the electronic devices.&lt;/p&gt;
 
-&lt;p&gt;There are more interesting shortcut keys you can use in Emacs, which you can google it for more information.&lt;/p&gt;
+&lt;h2 id=&quot;emp-design&quot;&gt;EMP Design&lt;/h2&gt;
+&lt;p&gt;One important thing we have learned in the previous section is that in order to generate an electrogmanetic pulse (EMP), we need to create “a burst of electromagnetic energy”, which is equivalent to a large, sudden change of either a magnetic or an electric field.&lt;/p&gt;
 
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://brew.sh/&quot;&gt;homebrew&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://wikemacs.org/wiki/Installing_Emacs_on_OS_X&quot;&gt;Installing Emacs on OSX&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://melpa.org/#/&quot;&gt;MELPA&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.rgrjr.com/emacs/emacs_cheat.html&quot;&gt;Emacs Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Indeed, it doesn’t matter if we choose to create a electric or a magnetic pulse, because according to Maxwell’s equations, a pulse of electric energy unavoidably generates a magnetic field, and leads to a pulse of magnetic energy. Generally, either the electric or the magnetic form of EMP will dominate.&lt;/p&gt;
+
+&lt;p&gt;Since it could be pretty dangerous to create a large pulse of electric field that could influence a typical electronic gadget, the design mainly involves the use of a coil to create a pulse of magnetic field (as the dominant form of EMP). There are two slightly different circuits to implement this kind of EMP generator with a small difference in terms of the power &amp;amp; performance of the EMP, which are presented below.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/images/Circuit1.png&quot; alt=&quot;Circuit1.png&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;EMP circuit design that utilizes a high-voltage generator to create electric arcs (also known as dielectric breakdown).&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The principle behind the first design is to utilize the large, pulse-like current generated during the dielectric break down, which further creates a pulse-like magnetic field through the coil according to Ampère’s law. Small high-voltage generators that convert a DC volage source of 6-12 V to 1000 kV are suitable for our purpose, and they are usually cheap to buy on Amazon or Ebay.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/images/Circuit2.png&quot; alt=&quot;Circuit2.png&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;EMP circuit design that utilizes a high-voltage generator to create electric arcs (also known as dielectric breakdown).&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Similar to the first design, this second design utilize a photoflash capacitor that discharges all its stored electric energy in a very short time to generate a large pulse of current through the coil, leading to a single pulse of magnetic field. An example tutorial of this kind of EMP design could be found at &lt;a href=&quot;https://www.wikihow.com/Build-an-EMP-Generator&quot;&gt;Wikihow&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The main difference between the two EMP designs above is that the first design creates a constant supply of irregular magnetic pulses with a relatively stable power, while the second design generates a large, powerful magnetic pulse and needs to be recharged before the next shot.&lt;/p&gt;
+
+&lt;p&gt;There are different ways to make your EMP stronger, and the drawing below shows 3 feasible options as suggested by the Maxwell’s equations. Try come out more methods by first understanding the Maxwell’s equations and see if you could make your EMP stronger!&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/images/StrongerEMP.png&quot; alt=&quot;StrongerEMP.png&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;3 ways to make your EMP stronger!&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Overal, I made my own EMP generator based on the first design, and below you will see some cool demonstration videos :)&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/images/EMPdevice.png&quot; alt=&quot;EMPdevice.png&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;My simple EMP generator&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;emp-showcase&quot;&gt;EMP showcase&lt;/h2&gt;
+&lt;p&gt;I test the performance of my EMP generator with 3 electronic gadgets: TI-84 calculator, a small radio and an iPhone 5 SE. Thanks to the modern technology, most electronic devices today are either well-shielded or have a protective circuitry that prevents the device from being damaged by EMP (to a certain extent). For example, some devices shut down completely when being attacked by an EMP (i.e. TI-84) and requries a battery-removed reboot to work again. Cheaper electronic devices like the radio could be pretty vulnerable to EMP, as I eventually killed its FM option. The EMP I made seems to be too weak to disable the iPhone 5 SE – all it can do is to mess up the LCD display.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://youtu.be/j-VMMReCcNo&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/j-VMMReCcNo/0.jpg&quot; alt=&quot;EMP vs TI-84&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;EMP vs. TI-84&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://youtu.be/PW5Wf-DimXE&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/PW5Wf-DimXE/0.jpg&quot; alt=&quot;EMP vs Radio&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;EMP vs. Radio&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://youtu.be/KbRZXIsOMeg&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/KbRZXIsOMeg/0.jpg&quot; alt=&quot;EMP vs iPhone 5&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;EMP vs. iPhone 5 SE&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </description>
-        <pubDate>Thu, 02 Aug 2018 00:00:00 -0400</pubDate>
-        <link>https://hongyoulin.github.io//emacs/2018/08/02/Emacs-Guide-for-Mac-OSX.html</link>
-        <guid isPermaLink="true">https://hongyoulin.github.io//emacs/2018/08/02/Emacs-Guide-for-Mac-OSX.html</guid>
+        <pubDate>Fri, 28 Apr 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/emp/2017/04/28/A-Physics-Guide-for-Making-Your-Own-Handheld-EMP-Generator.html</link>
+        <guid isPermaLink="true">http://localhost:4000/emp/2017/04/28/A-Physics-Guide-for-Making-Your-Own-Handheld-EMP-Generator.html</guid>
         
-        <category>emacs</category>
+        <category>emp</category>
         
         
-        <category>Emacs</category>
+        <category>EMP</category>
         
       </item>
     

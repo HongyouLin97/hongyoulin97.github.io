@@ -1,7 +1,7 @@
 ---
 layout: post
-title: AAA
-subtitle: <span class="mega-octicon octicon-telescope"></span>&nbsp;&nbsp; AAAAAAAAAA
+title: Useful Links
+subtitle: <span class="mega-octicon octicon-telescope"></span>&nbsp;&nbsp; Either some works I did, or some documents I found to be helpful for a Physics, CS or Engineering student!
 menu: useful_links
 permalink: /useful_links
 ---

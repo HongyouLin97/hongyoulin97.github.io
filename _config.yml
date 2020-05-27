@@ -69,13 +69,13 @@ navs:
     href: /projects
     label: Projects
 
-  # -
-  #   href: /blog
-  #   label: Blog
+  -
+    href: /blog
+    label: Blog
 
-  # -
-  #   href: /useful_links
-  #   label: AAAAAAA
+  - 
+    href: /useful_links
+    label: Useful Links
 
   -
     href: /about
